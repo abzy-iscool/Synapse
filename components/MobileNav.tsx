@@ -1,6 +1,6 @@
 'use client';
 
-import { SynapseLogo } from '../public/logos/SynapseLogo'
+import { SynapseLogo } from '../public/logos/SynapseLogo.jsx'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 

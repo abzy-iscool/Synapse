@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image.js';
 import { SynapseLogo } from '../public/logo/Synapselogo'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';

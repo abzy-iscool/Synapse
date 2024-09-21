@@ -11,7 +11,7 @@ import {
 } from '@stream-io/video-react-sdk';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Users, LayoutList } from 'lucide-react';
-
+import { NoiseCancellation } from './NoiseCancellation';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -65,6 +65,7 @@ const MeetingRoom = () => {
       </div>
       {/* video layout and call controls */}
       <div className="fixed bottom-0 flex w-full items-center justify-center gap-5">
+        <NoiseCancellation />
         <CallControls onLeave={() => router.push(`/`)} />
 
         <DropdownMenu>

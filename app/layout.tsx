@@ -7,7 +7,7 @@ import "@stream-io/video-react-sdk/dist/css/styles.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-import { dark } from '@clerk/themes';
+import { neobrutalism } from '@clerk/themes';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <ClerkProvider
         appearance={{
-          baseTheme: [dark],
+          baseTheme: [neobrutalism],
           variables: {
             colorText: "#fff",
             colorPrimary: "#0E78F9",
